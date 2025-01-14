@@ -1,60 +1,112 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+The Jobs portal is developed to create interactive job vacancies for candidates and for employers to post offers. In its current form, this web application is intended to be a dynamic site requiring constant updates from both searchers and companies. Overall, the aim of the project is to allow job seekers to post their resumes and companies to post their vacancies. It allows job seekers to post their resume, search for jobs, view personal job offers. It will allow various companies to post their job vacancies profile on the site and will also have the ability to search candidate resumes. In addition, an administrator module will be available for the customer to make changes to the database content.
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+Features
 
-## About Laravel
+    Job Seeker
+    Manage Resume
+    Job Provider
+    Administrator
+    Job Search
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+Job Seeker
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+This module contains details about Job Seeker, i.e. employee or un-employee details. Like employee name, email, experience. Here employee can do update, modify and delete. He can update experience and skills, portfolio andeducation details also.
+Job Provider / Company
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
+This module having information about job provider and requirement details, which client recruiting the employees, and what based them recruiting the employees? Here client releasing the primary skills, experience, no. of vacancies, opening date and closing date.
+Administrator
 
-## Learning Laravel
+The administrator module having all privileges about this entire project, he can update, delete, and modify the details about job seeker, job provider, CMS, Job attributes, Admin users etc. Administrator maintain the client and job seeker database, where ever client is releasing their requirements( vacancies) with particular primary skills and experience, on that time administrator search for job seekers, who are having that primary skills and experience.
+Job Search
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of any modern web application framework, making it a breeze to get started learning the framework.
+This module having all current vacant jobs, experience and which client offering that vacancy.
+INTRODUCTION TO FUNCTIONALITY
+JOB SEEKER:
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+After registration job seeker can perform following actions:
 
-## Laravel Sponsors
+    Free Registration
+    Created Profile
+    Edit profile
+    Create Online Resume
+        Add Projects
+        Add Experience
+        Add Education
+        Add Skills
+        Add Languages
+    Upload Multiple Resume
+    Apply on Jobs
+    Search Jobs
+    Job Alerts
+    Manage Applied Jobs
+    Mark Job as Favourite
+    View Favourite Jobs
+    Filter Jobs
+    View Companies to Following list
+    View Followings
+    Send Message to Candidates
+    View Messages
 
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell):
+JOB PROVIDER / COMPANY:
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
+Job provider’s (Companies) can perform following action:
 
-## Contributing
+    Free Registration
+    Created Profile
+    Edit profile
+    Employer Packages
+    Post Jobs
+    Manage Posted Jobs
+    Edit or Delete Jobs
+    Manage Applied Candidates
+    Shortlist Candidates
+    Manage Shortlised candidates
+    Search Resume
+    Filter Resume
+    View Candidates Profile
+    Download Resumes
+    View Followers
+    Send Message to Candidates
+    View Messages from Candidates
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+ADMINISTRATOR:
 
-## Security Vulnerabilities
+Administrator can manage whole website:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+    Admin users
+    Manage Jobs
+    Manage Companies
+    Manage Seekers
+    Manage Content Pages
+    Manage SEO
+    Manage FAQ
+    Manage Blog
+    Manage Testimonials
+    Manage Site Languages
+    Manage locations
+        Countries
+        Countries Detail
+        States
+        Cities
+    Manage Employer Packages
+    Manage Seeker Packages
+    Manage Site Settings
+    Manage Job Attributes
+        Language Levels
+        Career Levels
+        Functional Areas
+        Genders
+        Industries
+        Job Experiences
+        Job Skills
+        Job Titles
+        Job Types
+        Job Shifts
+        Degree Levels
+        Degree Types
+        Major Subjects
+        Result Types
+        Marital Statuses
+        Ownership Types
+        Salary Periods
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
